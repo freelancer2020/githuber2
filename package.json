@@ -1,0 +1,24 @@
+{
+  "name": "githuber2",
+  "version": "1.0.0",
+  "description": "githuber application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "heroku-postbuild": "cd githuber && npm install --only=dev && npm install && npm run build"
+  },
+  "keywords": [
+    "server",
+    "react",
+    "node",
+    "express"
+  ],
+  "author": "mostafa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs-extra": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
